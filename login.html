@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Iniciar Sesión</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="contenedor">
+       <form class="tarjeta" action="bienvenida.html" method="GET">
+           <h2>Iniciar Sesión</h2>
+           <p>Ingresa tu usuario y contraseña para acceder</p>
+           <div class="campo">
+               <label for="usuario">Usuario o Correo:</label>
+               <input
+                   type="text"
+                   id="usuario"
+                   name="usuario"
+                   placeholder="Ejemplo: juan123"
+                   required>
+           </div>
+           <div class="campo">
+               <label for="clave">Contraseña:</label>
+               <input
+                   type="password"
+                   id="clave"
+                   name="clave"
+                   placeholder="Ingresa tu clave"
+                   required>
+           </div>
+           <button type="submit" class="boton">
+               Ingresar
+           </button>
+       </form>
+   </div>
+</body>
+</html> 
